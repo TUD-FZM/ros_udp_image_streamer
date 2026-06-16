@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="concept" id="X03QHT3CKEMSSDI98Tfi">
+    <mxGraphModel dx="1372" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--13" value="&lt;font color=&quot;#ff0000&quot;&gt;ROS1 or ROS2&lt;/font&gt; Machine" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="557" y="70" width="263" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--6" value="&lt;font color=&quot;#ff0000&quot;&gt;ROS1 or ROS2&lt;/font&gt;&amp;nbsp;Machine" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="7" y="70" width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201.57999999999998" y="210" as="sourcePoint" />
+            <mxPoint x="201.57999999999998" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--8" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17" y="100" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--2" value="h264_image_msgs::&lt;div&gt;H264Packet&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="J8Q6CiDE2pdF9Q8gXTd--8" source="J8Q6CiDE2pdF9Q8gXTd--4" target="J8Q6CiDE2pdF9Q8gXTd--5" edge="1">
+          <mxGeometry x="-0.1429" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="30" as="sourcePoint" />
+            <mxPoint x="250" y="30" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--4" value="Video&lt;div&gt;Source 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--8" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--5" value="UDP Client 1&lt;div&gt;(ROS1 / ROS2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--8" vertex="1">
+          <mxGeometry x="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--9" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="17" y="210" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--10" value="sensor_msgs::Image" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="J8Q6CiDE2pdF9Q8gXTd--9" source="J8Q6CiDE2pdF9Q8gXTd--11" target="J8Q6CiDE2pdF9Q8gXTd--12" edge="1">
+          <mxGeometry x="-0.1429" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="30" as="sourcePoint" />
+            <mxPoint x="250" y="30" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--11" value="Video&lt;div&gt;Source n&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--9" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--12" value="UDP Client n&lt;div&gt;(ROS1 / ROS2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--9" vertex="1">
+          <mxGeometry x="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--15" value="" style="group;rotation=90;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="567" y="100" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--14" value="sensor_msgs::&lt;div&gt;Image&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--15" source="J8Q6CiDE2pdF9Q8gXTd--1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--1" value="UDP Server 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--15" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=4;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="767" y="210" as="sourcePoint" />
+            <mxPoint x="767" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="567" y="210" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--18" value="sensor_msgs::&lt;div&gt;Image&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--17" source="J8Q6CiDE2pdF9Q8gXTd--19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--19" value="UDP Server n" style="rounded=1;whiteSpace=wrap;html=1;" parent="J8Q6CiDE2pdF9Q8gXTd--17" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" parent="1" source="J8Q6CiDE2pdF9Q8gXTd--5" target="J8Q6CiDE2pdF9Q8gXTd--1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J8Q6CiDE2pdF9Q8gXTd--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;dashed=1;" parent="1" source="J8Q6CiDE2pdF9Q8gXTd--12" target="J8Q6CiDE2pdF9Q8gXTd--19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LVDbr2UX4ymJCsbzfl0R-22" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#00305D;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" parent="1" vertex="1">
+          <mxGeometry x="460" y="145" width="40" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
